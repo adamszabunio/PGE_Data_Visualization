@@ -9,7 +9,6 @@ In this repository, I sought out to:
 + Learn and practice Tableau for Data Visualization
 + Compare/Contrast Tableau and Python 
 + Find a happy medium between the two
-_____________
 
 ## The Data
 
@@ -17,30 +16,29 @@ Data used for this project was publicly available energy consumption data for Ga
 + Two energy utilities, Gas and Electric
 + 5 years of Monthly Consumption Quarterly data from 2013 - 2017
 + Usage data is aggregated monthly by customer class (Residential, Commercial, Industrial, or Agricultural)
-+ Grouped by ZIP Code [1](EDRP Quarterly Report Notes.pdf)
++ Grouped by ZIP Code
 
 
 ## The Analysis
 
 Samples of Data from both Utilities.  
 
-+ Electric:
++ Electric Data contains 4 unique Customer Classes:
+
 ![](final_data/elec_samp.png?raw=true) 
 
-Electric Data contains 4 unique Customer Classes.
 
-+ Gas:
++ Gas Data only contains 3 unique Customer Classes:
+
 ![](final_data/gas_samp.png?raw=true)
 
-Gas Data only contains 3 unique Customer Classes.
 
-Image below and further analysis can be found in the [Exploratory Data Analysis Jupyter Notebook](Exploratory_Data_Analysis_PGE)
+Image below and further analysis can be found in the [Exploratory Data Analysis Jupyter Notebook](Exploratory_Data_Analysis_PGE.ipynb)
 
 ![](final_data/venn.png?raw=true) 
-![](final_data/unique.png?raw=true)
 
 
-## Tableau VS Python 
+## Python vs Tableau
 
 ![](final_data/comparison.jpeg?raw=true)
 
